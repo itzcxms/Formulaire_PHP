@@ -7,9 +7,12 @@
 ?>
 
 <br>
-<button>
-    <a href="messages.php">Voir tous les messages</a>
-</button>
+
+<a href="messages.php">
+    <button>
+        Voir tous les messages
+    </button>
+</a>
 
 <h1>Formulaire</h1>
 <form action="form.php" method="POST">
