@@ -1,4 +1,2 @@
-maaamaaamaaaaaaaaaaaaaaaaa
-aaa\naaa\naaa
-aaa
-aaa
+message
+test
