@@ -1,7 +1,6 @@
 <?php
-    // TODO : enlever message d'erreur quand pas encore de session
     session_start();
-    if ($_SESSION['nom'] && $_SESSION['message'] != null) {
+    if (isset($_SESSION['nom']) && isset($_SESSION['message'])) {
         echo "Bonjour ".$_SESSION['nom']." ! <br>";
         echo "Votre message est : ".$_SESSION['message']."<br>";
     }
